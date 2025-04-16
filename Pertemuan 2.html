@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Jelek</title>
+  <style>
+    body {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      color: #f2f2f2; /* Teks pada body hampir sama dengan latar */
+    }
+    header {
+      background-color: #333;
+      color: #333; /* Teks sama dengan background, membuatnya sulit dibaca */
+      text-align: center;
+      padding: 50px;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: block;
+      margin: 5px 0;
+    }
+    nav ul li a {
+      color: #444; /* Teks hampir sama dengan background nav */
+      text-decoration: none;
+    }
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .portfolio-item {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      margin: 10px;
+      width: 300px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .portfolio-item img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .portfolio-item h2,
+    .portfolio-item p {
+      color: #fff; /* Teks putih pada latar putih membuatnya sangat sulit dibaca */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio Jelek</h1>
+    <p>Website yang tidak menarik dan sulit digunakan</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Beranda</a></li>
+      <li><a href="#">Tentang Saya</a></li>
+      <li><a href="#">Karya</a></li>
+      <li><a href="#">Kontak</a></li>
+    </ul>
+  </nav>
+  <section class="portfolio">
+    <div class="portfolio-item">
+      <img src="https://akcdn.detik.net.id/community/media/visual/2019/04/09/701ea2bc-557f-4a21-a5ed-917648fa4795.jpeg?w=700&q=90" alt="Project 1">
+      <h2>Project 1</h2>
+      <p>Deskripsi singkat tentang project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="https://ayuprint.co.id/wp-content/uploads/2015/01/Poster-Keren-Desain-Modern-Lollapalooza-2014-Poster.jpg" alt="Project 2">
+      <h2>Project 2</h2>
+      <p>Deskripsi singkat tentang project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="https://ayuprint.co.id/wp-content/uploads/2015/01/Poster-Keren-Desain-Modern-Mini-Jam-Poster.jpg" alt="Project 3">
+      <h2>Project 3</h2>
+      <p>Deskripsi singkat tentang project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </section>
+  <footer style="background-color: #444; color: #fff; text-align: center; padding: 20px; margin-top: 20px;">
+    <p>© 2025 Portfolio Tomi</p>
+  </footer>
+</body>
+</html>
